@@ -13,7 +13,7 @@ const app = express();
 // CORS Configuration (FIXED)
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: process.env.FRONTEND_URL ||"https://beauty-parlour-delta.vercel.app/",
     credentials: true,
   })
 );
